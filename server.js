@@ -202,5 +202,9 @@ app.post("/mercadopago/create_preference/socios", (req, res) => {
       });
     });
 
+app.get('/', (req, res) =>{
+  res.status(200).send({msg: "Hola mundo"})
+})
+
 app.listen(3977) 
 console.log('puerto 3977')
