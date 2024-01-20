@@ -202,5 +202,5 @@ app.post("/mercadopago/create_preference/socios", (req, res) => {
       });
     });
 
-app.listen(5000) 
-console.log('puerto 5000')
+app.listen(3977) 
+console.log('puerto 3977')
